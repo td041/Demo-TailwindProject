@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="sales bg-primary py-[10px]">
+      <div class="container sm:mx-auto px-[16px]">
+        <div class="flex items-center">
+          <div class="flex-1 text-white text-[14px] text-center">
+            <span class="font-[400]">Đăng ký để được giảm giá 20%. </span>
+            <a href="#!" class="font-[500] underline">Đăng Ký Ngay</a>
+          </div>
+          <div class="text-white text-[14px] sm:block hidden">
+            <a href="#!"><i class="fa-solid fa-square-xmark"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="header">
+      <div class="container sm:mx-auto px-[16px]">
+        <!-- Header -->
+        <div class="flex items-center justify-between py-[24px] bg-[#fff] gap-[40px]">
+          <!-- Menu-mobile -->
+          <a class="text-[22px] text-primary md:hidden block">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+          <!-- Logo -->
+          <div class="flex-1 md:flex-none">
+            <a href="#!" class="text-[32px] text-[700]">28.SHOP</a>
+          </div>
+          <!-- Navbar -->
+          <nav class="md:block hidden">
+            <ul class="flex items-center gap-[24px]">
+              <li>
+                <a href="#!" class="font-[400] text-[16px] text-primary">Giới Thiệu</a>
+              </li>
+              <li>
+                <a href="#!" class="font-[400] text-[16px] text-primary">Sản Phẩm</a>
+              </li>
+              <li>
+                <a href="#!" class="font-[400] text-[16px] text-primary">Bài Viết</a>
+              </li>
+              <li>
+                <a href="#!" class="font-[400] text-[16px] text-primary">Liên Hệ</a>
+              </li>
+            </ul>
+          </nav>
+          <form
+            action=""
+            class="flex gap-[12px] items-center bg-[#F0F0F0] flex-1 rounded-[62px] px-[16px] py-[12px] lg:flex hidden"
+          >
+            <label for="header-input" class="text-[20px] cursor-pointer"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></label>
+            <input
+              type="text"
+              name=""
+              id="header-input"
+              placeholder="Tìm kiếm sản phẩm..."
+              class="bg-transparent outline-none flex-1 border-none"
+            />
+          </form>
+          <div class="flex items-center sm:gap-[14px] gap-[12px]">
+            <a href="#!" class="text-[22px] text-primary lg:hidden block">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+            <a href="#!" class="text-[22px] text-primary">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+            <a href="#!" class="text-[22px] text-primary">
+              <i class="fa-solid fa-user"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Section-1 -->
+    <div class="bg-[#F2F0F1] pt-[45px]">
+      <div class="container sm:mx-auto px-[16px]">
+        <div class="flex gap-[51px] lg:flex-nowrap flex-wrap">
+          <div class="lg:w-[50%] w-[100%]">
+            <h1 class="xl:text-[48px] sm:text-[38px] text-[28px] font-[900] text-primary leading-[68px]">
+              CHUYÊN THỜI TRANG PHONG CÁCH, HIỆN ĐẠI
+            </h1>
+            <p class="xl:text-[16px] text-[14px] font-[400] text-secondary leading-[22px] mt-[30px]">
+              Chúng tôi chuyên cung cấp nhiều loại quần áo được chế tác tỉ mỉ, được thiết kế để làm nổi bật cá tính của
+              bạn và đáp ứng phong cách của bạn.
+            </p>
+            <button
+              class="rounded-[62px] bg-primary text-[16px] font-[500] text-[#FFF] py-[16px] px-[64.5px] xl:mt-[50px] mt-[30px] sm:inline-block sm:w-auto w-[100%]"
+            >
+              Xem ngay
+            </button>
+            <div class="flex mt-[50px] sm:gap-[32px] gap-[0] sm:flex-nowrap flex-wrap justify-center items-center">
+              <div
+                class="xl:pr-[32px] xl:border-r-[1px] xl:border-solid border-[#0000001A] sm:w-none w-[50%] sm:text-left text-center"
+              >
+                <h2 class="font-[700] xl:text-[40px] text-[24px] text-primary">200+</h2>
+                <p class="whitespace-nowrap text-secondary font-[400] xl:text-[16px] text-[12px]">Thương hiệu</p>
+              </div>
+              <div
+                class="xl:pr-[32px] xl:border-r-[1px] xl:border-solid border-[#0000001A] sm:w-none w-[50%] sm:text-left text-center"
+              >
+                <h2 class="font-[700] xl:text-[40px] text-[24px] text-primary">2,000+</h2>
+                <p class="whitespace-nowrap text-secondary font-[400] xl:text-[16px] text-[12px]">
+                  Sản Phẩm Chất Lượng
+                </p>
+              </div>
+              <div class="sm:w-none w-[100%] sm:text-left text-center mt-[10px]">
+                <h2 class="font-[700] xl:text-[40px] text-[24px] text-primary">30,000+</h2>
+                <p class="whitespace-nowrap text-secondary font-[400] xl:text-[16px] text-[12px]">Khách Hàng</p>
+              </div>
+            </div>
+          </div>
+          <div class="relative flex-1 xl:mt-[50px] mt-[30px]">
+            <img
+              src="./assets/img/section-1_icon1.svg"
+              alt=""
+              class="w-[56px] absolute left-0 top-[40%] sm:block hidden"
+            />
+            <img
+              src="./assets/img/section-1_icon2.svg"
+              alt=""
+              class="xl:w-[104px] w-[90px] absolute right-0 top-[5%] sm:block hidden"
+            />
+            <img src="./assets/img/section-1-bg.png" alt="" class="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Section-2 -->
+    <div class="bg-primary">
+      <div class="container sm:mx-auto px-[16px]">
+        <div
+          class="flex items-center sm:gap-x-[60px] gap-x-[34px] sm:py-[42px] py-[30px] justify-center flex-wrap gap-y-[30px]"
+        >
+          <img src="./assets/img/brand-1.png" alt="" class="sm:h-[32px] h-[22px]" />
+          <img src="./assets/img/brand-2.png" alt="" class="sm:h-[32px] h-[22px]" />
+          <img src="./assets/img/brand-3.png" alt="" class="sm:h-[32px] h-[22px]" />
+          <img src="./assets/img/brand-4.png" alt="" class="sm:h-[32px] h-[22px]" />
+          <img src="./assets/img/brand-5.png" alt="" class="sm:h-[32px] h-[22px]" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
